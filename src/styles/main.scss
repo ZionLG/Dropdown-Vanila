@@ -1,0 +1,37 @@
+.dropdown-items {
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style-type: none;
+  background-color: #D3D3D3;
+  font-size: 20px;
+  display: none;
+}
+
+.dropdown-items > li {
+  padding: 15px;
+  &:hover {
+    background-color: grey;
+  }
+}
+
+.dropdown {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: max-content;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  background-color: royalblue;
+  padding: 15px;
+  color: white;
+  display: block;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 15px 0 0;
+  &:hover {
+      background-color: #31349B;
+    }
+}
